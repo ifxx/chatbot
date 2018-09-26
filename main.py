@@ -7,7 +7,7 @@ import itchatmp
 jenkins_server_url='http://ssncg.koreacentral.cloudapp.azure.com:8080'
 #在用户设定中找到uid 和 token
 user_id='scott'
-api_token='3802d199cd9bb4e3b8f12c7124b6dfb5'
+api_token='xxxxxxxxxxxxx12c7124b6dfb5'
 server = jenkins.Jenkins(jenkins_server_url, username=user_id, password=api_token)
 jobOn = 'testOn'
 jobOff = 'testOff'
